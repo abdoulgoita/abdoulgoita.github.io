@@ -1,7 +1,7 @@
-body {
+/*body {
 	background-color: black;
 	color: white;
-}
+}*/
 
 h3 {
 	text-align: center;
@@ -15,6 +15,8 @@ h3 {
 	margin: 0;
 	padding: 10px;
 	/*display: inline-grid;*/
+	background-color: black;
+	color: white;
 }
 
 #left-footer {
@@ -32,9 +34,10 @@ h3 {
 }
 
 
+
 .imgs {
-	width: 500px;
-	height: 500px;
+	width: 300px;
+	height: 300px;
 	border: 1px solid red;
 }
 
@@ -55,6 +58,16 @@ h3 {
 .navbar {
 	margin: 0;
 }
+
+
+/*MEDIA QUERIES*/
+@media screen and (min-width: 320) and (max-width: 480px) {
+	width: 300px;
+	height: 300px;
+	border: 1px solid red;
+}
+
+
 
 /*
 For mobile devices purpose
