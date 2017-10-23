@@ -2,19 +2,20 @@
 	background-color: black;
 	color: white;
 }*/
+div {
+	overflow: hidden;
+}
 
 h3 {
-	text-align: center;
+	margin: 0;
 }
 
 #footer {
 	height: 150px;
 	background-color: black;
 	color: white;
-	/*text-align: center;*/
 	margin: 0;
 	padding: 10px;
-	/*display: inline-grid;*/
 	background-color: black;
 	color: white;
 }
@@ -33,38 +34,53 @@ h3 {
     /*background-color: gray;*/
 }
 
-
-
-.imgs {
+.image {
 	width: 300px;
-	height: 300px;
-	border: 1px solid red;
+	float: left;
+	margin: 0 10px 0 5px;
 }
 
+.imgs {
+	width: 100%;
+	height: 275px;
+}
+
+.div-main {
+	text-align: justify;
+	margin: 5px 10px 0 10px;
+}
+
+.flag {
+	width: 60px;
+	height: 30px;
+}
 
 .row {
 	border: 1px solid black;
 }
 
 .page-header {
-	background: #96E3A0;/*#688994;*/
+	background: #e8edb6;/*#96E3A0;*//*#688994;*/
 	text-align: center;
 	margin: 0;
 	padding-top: 1px;
 	padding-bottom: 3px;
-	/*border: 1px solid black;*/
 }
 
 .navbar {
 	margin: 0;
 }
 
+.main-text {
+	line-height: 150%;
+}
+
 
 /*MEDIA QUERIES*/
 @media screen and (min-width: 320) and (max-width: 480px) {
-	width: 300px;
-	height: 300px;
-	border: 1px solid red;
+	width: 250px;
+	height: 250px;
+	/*border: 1px solid red;*/
 }
 
 
