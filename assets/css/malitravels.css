@@ -1,0 +1,80 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+h3 {
+	text-align: center;
+}
+
+#footer {
+	height: 150px;
+	background-color: black;
+	color: white;
+	/*text-align: center;*/
+	margin: 0;
+	padding: 10px;
+	/*display: inline-grid;*/
+}
+
+#left-footer {
+	float: left;
+}
+
+#right-footer {
+	float: right;
+}
+
+#map {
+	height: 400px;
+    width: 100%;
+    /*background-color: gray;*/
+}
+
+
+.imgs {
+	width: 500px;
+	height: 500px;
+	border: 1px solid red;
+}
+
+
+.row {
+	border: 1px solid black;
+}
+
+.page-header {
+	background: #96E3A0;/*#688994;*/
+	text-align: center;
+	margin: 0;
+	padding-top: 1px;
+	padding-bottom: 3px;
+	/*border: 1px solid black;*/
+}
+
+.navbar {
+	margin: 0;
+}
+
+/*
+For mobile devices purpose
+
+img {
+	max-width: 100%;
+}
+
+If your images are set as background images and not as img tags, simply set 
+the background-size CSS property to contain. This will cause the background 
+image to resize when the screen is too small.
+
+.header {
+  background: url(header.png) 50% no-repeat;
+  background-size: contain
+}
+
+
+input, textarea {
+  max-width:100%
+}
+
+*/
